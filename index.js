@@ -41,7 +41,7 @@ const listaloggedout = document.querySelectorAll('.logged-out');
             console.log(platillo);
             const columna = `
                 <div class="col-12 col-md-4">
-                    <img src="D:/marco/Documents/6to Semestre/Sistemas Geo-Referenciados/Autorizacion/imagenes/${platillo.imagen}" alt="${platillo.nombre}">
+                    <img src="imagenes/${platillo.imagen}" alt="${platillo.nombre}">
                     <p>${platillo.nombre}</p>
                     <p class="text-danger">$${platillo.precio}.00 pesos</p>
                     <a href="https://www.paypal.me/grupohernandezalba/${platillo.precio}" target="_blank">
